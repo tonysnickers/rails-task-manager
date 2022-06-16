@@ -1,0 +1,7 @@
+<h1><%= @task.title %></h1>
+  <div class="form">
+    <p><%= @task.details %></p>
+
+    <p><%= link_to "back to list", tasks_path %></p>
+    <p><%= link_to "edit the task", edit_task_path(@task) %></p>
+  </div>
